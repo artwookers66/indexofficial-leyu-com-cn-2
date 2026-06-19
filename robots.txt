@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://artwookers66.github.io/indexofficial-leyu-com-cn-2/sitemap.xml
