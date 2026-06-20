@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>857直播 · 轻量导航介绍</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #faf9f8;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: #1e1e1e;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 32px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.03), 0 1px 4px rgba(0,0,0,0.02);
+      padding: 2.5rem 2rem 3rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 1.5rem 2rem;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid #eae8e6;
+      padding-bottom: 1.25rem;
+    }
+    nav a {
+      font-size: 0.95rem;
+      text-decoration: none;
+      color: #5b5b5b;
+      letter-spacing: 0.3px;
+      transition: color 0.2s, border-bottom 0.2s;
+      padding-bottom: 0.2rem;
+    }
+    nav a:hover { color: #1e1e1e; border-bottom: 2px solid #1e1e1e; }
+    nav a.current { color: #1e1e1e; border-bottom: 2px solid #1e1e1e; font-weight: 500; }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: -0.4px;
+      margin-bottom: 0.5rem;
+      color: #141414;
+    }
+    .subhead {
+      font-size: 1rem;
+      color: #6c6c6c;
+      margin-bottom: 2.2rem;
+      line-height: 1.6;
+    }
+    .subhead a {
+      color: #1e1e1e;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-color: #cbc8c5;
+    }
+    .subhead a:hover { text-decoration-color: #1e1e1e; }
+
+    .highlight-box {
+      background: #f6f4f2;
+      border-radius: 20px;
+      padding: 1.6rem 1.8rem;
+      margin: 2rem 0 2.4rem;
+    }
+    .highlight-box p {
+      font-size: 0.98rem;
+      color: #2e2e2e;
+      margin-bottom: 0.5rem;
+    }
+    .highlight-box p:last-child { margin-bottom: 0; }
+
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 2.8rem 0 1rem;
+      letter-spacing: -0.2px;
+      border-left: 3px solid #d6d0cb;
+      padding-left: 1rem;
+    }
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .card {
+      background: #faf8f6;
+      border-radius: 18px;
+      padding: 1.5rem 1.6rem;
+      transition: background 0.15s;
+    }
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: #1a1a1a;
+    }
+    .card p {
+      font-size: 0.92rem;
+      color: #434343;
+      line-height: 1.65;
+    }
+
+    .faq-item {
+      padding: 1rem 0;
+      border-bottom: 1px solid #edebe9;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q {
+      font-weight: 500;
+      font-size: 0.98rem;
+      margin-bottom: 0.25rem;
+      color: #1e1e1e;
+    }
+    .faq-a {
+      font-size: 0.9rem;
+      color: #5c5c5c;
+      line-height: 1.6;
+    }
+    .footer-note {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #eae7e4;
+      font-size: 0.85rem;
+      color: #7a7a7a;
+      text-align: left;
+    }
+
+    @media (max-width: 480px) {
+      .container { padding: 1.8rem 1.2rem; }
+      h1 { font-size: 1.7rem; }
+      nav { gap: 1rem 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <nav>
+    <a href="#" class="current">介绍</a>
+    <a href="#">场景</a>
+    <a href="#">常见说明</a>
+  </nav>
+
+  <h1>857直播 · 日常陪伴</h1>
+  <div class="subhead">
+    一个围绕主题内容展开的轻量空间 —— 无论是日常消遣、兴趣交流，还是偶尔的沉浸时刻，<a href="https://zh-official-857.com">857直播</a> 提供了一种平实而持续的陪伴。没有多余的装饰，只有流畅的观看体验和一群真实参与的人。
+  </div>
+
+  <div class="highlight-box">
+    <p>透过屏幕，连接的不只是内容，更是某种共同的节奏。857直播所倡导的，是一种不紧绷的观看方式：想看时自然进入，想离开时也不必负担。</p>
+    <p>这里没有夸张的承诺，只有稳定的画面、清晰的音质，以及那些恰好与你同时在线的人。</p>
+  </div>
+
+  <!-- 三个场景模块 -->
+  <div class="section-title">三个常见场景</div>
+  <div class="cards">
+    <div class="card">
+      <h3>· 午间空隙 ·</h3>
+      <p>工作或学习告一段落，打开直播页面，听一听背景里的交谈或音乐。不需要刻意互动，只是让房间里多一个声音的存在感，就足够放松。</p>
+    </div>
+    <div class="card">
+      <h3>· 晚间共处 ·</h3>
+      <p>一天结束，很多人会不约而同出现在同一个直播间。弹幕偶尔飘过，大家各说各话，却有一种默契的陪伴感。857直播的晚间时段，常常是这种安静共处的时刻。</p>
+    </div>
+    <div class="card">
+      <h3>· 兴趣碎片 ·</h3>
+      <p>遇到感兴趣的主题分享、游戏实况或音乐现场，随手点进去，发现原来有这么多人跟自己喜好相似。内容本身或许不那么隆重，但恰好对了此刻的心情。</p>
+    </div>
+  </div>
+
+  <!-- 常见说明 (FAQ 摘要) -->
+  <div class="section-title">一些说明</div>
+  <div class="faq-item">
+    <div class="faq-q">观看时需要注册吗？</div>
+    <div class="faq-a">大部分内容可以直接观看，无需强制注册。部分互动功能可能需要简单登录，但整体门槛很低，随时可以开始。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">内容偏向哪一类？</div>
+    <div class="faq-a">以生活化、兴趣向的直播为主，涵盖聊天、游戏、音乐、日常分享等。没有固定的标签，更像一个随机的兴趣角落。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">直播时间固定吗？</div>
+    <div class="faq-a">不完全是。很多主播有相对稳定的时段，但也常有即兴开播。建议保持平常心，遇到就是缘分，遇不到也可以看看回放或等待下一次。</div>
+  </div>
+
+  <div class="footer-note">
+    <p>页面仅作轻量导航介绍 · 内容方向：随性陪伴 · 更多体验请直接前往 <a href="https://zh-official-857.com" style="text-decoration:underline;text-underline-offset:2px;color:#1e1e1e;">857直播</a> 感受。</p>
+  </div>
+</div>
+</body>
+</html>
